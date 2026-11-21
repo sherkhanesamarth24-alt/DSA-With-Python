@@ -1,0 +1,27 @@
+# DSA - Sorting Program 05: Quick Sort
+
+def quick_sort(numbers):
+    if len(numbers) <= 1:
+        return numbers
+
+    pivot = numbers[-1]
+
+    smaller = []
+    greater = []
+
+    for i in range(len(numbers) - 1):
+        if numbers[i] <= pivot:
+            smaller.append(numbers[i])
+        else:
+            greater.append(numbers[i])
+
+    return quick_sort(smaller) + [pivot] + quick_sort(greater)
+
+
+numbers = [10, 7, 8, 9, 1, 5]
+
+print("Original Array:", numbers)
+
+result = quick_sort(numbers)
+
+print("Sorted Array:", result)
