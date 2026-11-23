@@ -18,3 +18,8 @@ result = calculate_average(numbers)
 
 print("Array:", numbers)
 print("Average:", result)
+
+
+
+
+## cd D:\DSA\DSA-With-Python
