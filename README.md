@@ -2,10 +2,6 @@
 
 A structured collection of **Data Structures and Algorithms (DSA)** problems and solutions in **Python**, covering fundamental concepts, problem-solving techniques, and coding interview preparation.
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
-![Status](https://img.shields.io/badge/Status-In%20Progress-orange)
-![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
-
 ---
 
 ## 📚 Table of Contents
